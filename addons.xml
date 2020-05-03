@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.toyago" name="ToyaGO" version="2.3.8" provider-name="piotrekcrash">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.requests"/>
+  <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+  <import addon="pvr.iptvsimple" optional="true"/>
+  <import addon="pvr.iptvarchive" optional="true"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="pl">ToyaGO Kodi Video Plugin</summary>
+  <description lang="pl">ToyaGo</description>
+  <disclaimer lang="pl">Plugin ToyaGO dla Kodi</disclaimer>
+  <disclaimer lang="pl">Thanks for @WLS</disclaimer>
+  <language>pl</language>
+  <email>pch@int.pl</email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-03.png</screenshot>
+    <screenshot>resources\screenshot-04.png</screenshot>
+    <screenshot>resources\screenshot-05.png</screenshot>
+  </assets>
+  <news>
+  </news>
+</extension>
+</addon>
+
+<addon id="repository.piotrekcrashdev" name="piotrekcrash DEV Repository" version="1.0.3" provider-name="piotrekcrash">
+    <extension point="xbmc.addon.repository" name="piotrekcrash DEV Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/piotrekcrash/dev_kodi/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/piotrekcrash/dev_kodi/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/piotrekcrash/dev_kodi/raw/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>piotrekcrash Kodi DEV Repository</summary>
+        <summary lang="pl">Repozytorium Developerskie piotrekcrash</summary>
+        <summary lang="en">piotrekcrash Develop repository</summary>
+        <description>piotrekcrash DEV repository</description>
+        <disclaimer lang="pl">piotrekcrash DEV repository</disclaimer>
+        <platform>all</platform>
+        <website>https://github.com/piotrekcrash/dev_kodi</website>
+        <email>pch@int.pl</email>
+    </extension>
+</addon>
+</addons>
