@@ -20,7 +20,7 @@ fi
 VERSION=`grep -w id ${PARENTDIR}/${ADDON}/addon.xml | cut -d\" -f6`
 EXCLUDE="*.pyo *.pyc *.DS_Store* *.git/* *.gitignore *.svn/* *.lwp */sftp-config.json"
 REPOSITORY=`find . -name "repository.*" | grep -v xml | xargs basename`
-ZIPDIR=${REPOSITORY}/zips
+ZIPDIR=zips
 ADDONZIP=${PARENTDIR}/${ZIPDIR}/${ADDON}/${ADDON}-${VERSION}.zip
 if [ ! -d ${PARENTDIR}/${ZIPDIR} ]
 then
