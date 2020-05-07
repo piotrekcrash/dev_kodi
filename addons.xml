@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.release24" name="Release24" version="2.0.6" provider-name="piotrekcrash">
+<addon id="plugin.video.release24" name="Release24" version="2.0.7" provider-name="piotrekcrash">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests"/>
@@ -16,7 +16,7 @@
   <description lang="en">Addon</description>
   <disclaimer lang="en">Plugin</disclaimer>
   <assets>
-    <icon>icon.png</icon>
+    <icon>icon_new.png</icon>
     <fanart>fanart.jpg</fanart>
     <screenshot>resources\screenshot-01.jpg</screenshot>
     <screenshot>resources\screenshot-02.jpg</screenshot>
