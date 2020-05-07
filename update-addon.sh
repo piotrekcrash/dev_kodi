@@ -1,5 +1,5 @@
 cd $1
-git pull
+git pull origin develop
 cd ..
 ./generate-zip.sh $1
 python3 generator.py
