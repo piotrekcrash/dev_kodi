@@ -11,9 +11,9 @@ fi
 ADDON=`basename $1`
 PARENTDIR=`dirname $1`
 BRANCH=`cd ${PARENTDIR}/${ADDON};git rev-parse --abbrev-ref HEAD`
-if [ "${BRANCH}" != "master" ]
+if [ "${BRANCH}" != "develop" ]
 then
-	echo "${BASENAME}: ERROR: Git branch is not set to master"
+	echo "${BASENAME}: ERROR: Git branch is not set to develop"
 	exit 1
 fi
 
