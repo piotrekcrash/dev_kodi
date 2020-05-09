@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.release24" name="Release24" version="2.0.16" provider-name="piotrekcrash">
+<addon id="plugin.video.release24" name="Release24" version="2.0.17" provider-name="piotrekcrash">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests"/>
